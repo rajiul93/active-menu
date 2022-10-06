@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: blueviolet;
+}
+label{
+    font-size: 24px;
+    color: white;
+    font-style:oblique;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: all .4s ease;
+}
+.nav-menu-active{
+    color: blueviolet;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+}
